@@ -1,5 +1,5 @@
 DROP TABLE #dups
-
+#Adding a comment to check flow
 SELECT accountnumber
 INTO #dups
 FROM  [InternetData].[dbo].[Email_Test_Account]
